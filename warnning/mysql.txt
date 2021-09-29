@@ -1,0 +1,6 @@
+Problema de Autenticação com o NODEJS
+
+
+Esse comando define o mysql user root para o plugin mysql_native_password
+que é compativel com o NODEJS
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '<password>';

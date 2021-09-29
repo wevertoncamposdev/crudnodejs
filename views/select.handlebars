@@ -1,0 +1,23 @@
+<h1>ServerHTTP</h1>
+<h3>by Weverton Campos</h3>
+<hr>
+
+<table>
+    <tr>
+        <th>Action</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    {{#data}}
+        <tr>
+            <td>
+                <a href="deletar"><img src="/img/lixeira-fechada.png" width="20" alt=""></a>
+                <a href="update"><img src="/img/editar.png" width="20" alt=""></a>
+            </td>
+            <td>{{id}}</td>
+            <td>{{name}}</td>
+            <td>{{age}}</td>
+        </tr>
+    {{/data}}
+</table>

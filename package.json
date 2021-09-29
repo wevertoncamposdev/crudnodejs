@@ -14,6 +14,6 @@
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Weverton Campos",
   "license": "ISC"
 }
